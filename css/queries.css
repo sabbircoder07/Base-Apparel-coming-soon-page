@@ -60,6 +60,9 @@
   .hero-image-mobile {
     display: block;
     background-image: url("../images/hero-mobile.jpg");
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
     width: 100%;
     height: 60rem;
     margin-bottom: 5rem;
