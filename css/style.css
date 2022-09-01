@@ -249,13 +249,14 @@ body {
   border-radius: 5rem;
   cursor: pointer;
   position: relative;
+  z-index: 2;
 }
 .btn:hover {
   background-color: hsl(0, 74%, 74%);
-  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 1rem hsl(0, 93%, 68%);
 }
 .btn:active {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem hsl(0, 93%, 68%);
 }
 
 .btn::after {
@@ -272,7 +273,7 @@ body {
 }
 
 .btn::after {
-  background-color: hsl(0, 74%, 74%);
+  background-color: hsl(0, 93%, 68%);
 }
 
 .btn:hover::after {
