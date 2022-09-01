@@ -72,7 +72,7 @@ body {
 }
 
 .grid--2-cols {
-  grid-template-columns: 1.3fr 1fr;
+  grid-template-columns: 1.4fr 1fr;
 }
 
 .hero-image-mobile {
@@ -84,7 +84,7 @@ body {
   background-size: 100% 90%;
   background-repeat: no-repeat;
   background-position: top left;
-  padding: 6rem 25rem 5rem 12rem;
+  padding: 6rem 25rem 5rem 15rem;
 }
 
 .logo-img {
@@ -193,13 +193,13 @@ body {
 }
 
 .call-to-action-form {
-  width: 125%;
+  width: 120%;
 }
 
 .call-to-action-form input,
 .call-to-action-form select {
   width: 100%;
-  padding: 2.4rem 2.6rem;
+  padding: 2.2rem 2.6rem;
   display: inline-block;
   font-size: 1.6rem;
   font-family: inherit;
@@ -220,12 +220,12 @@ body {
 .error-icon {
   position: absolute;
   padding: 0 0 0 1.4rem;
-  left: 52%;
+  left: 57%;
   display: none;
 }
 .btn--form {
   position: absolute;
-  left: -10rem;
+  left: -7rem;
 }
 .call-to-action-form input::placeholder {
   color: hsl(0, 36%, 70%);
@@ -244,7 +244,7 @@ body {
   background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   color: #fff4e6;
   align-self: end;
-  padding: 1.8rem 5.4rem;
+  padding: 1.6rem 5rem;
   transition: all 1s;
   border-radius: 5rem;
   cursor: pointer;
@@ -273,7 +273,7 @@ body {
 }
 
 .btn::after {
-  background-color: hsl(0, 93%, 68%);
+  background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
 }
 
 .btn:hover::after {
